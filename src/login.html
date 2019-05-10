@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head> 
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+<SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+
+let users = new Array("admin");
+let passwords = new Array("admin");
+
+let users1 = new Array("user");
+let passwords1 = new Array("user");
+
+function sprawdz_haslo(user, pass)
+{  
+  for(let i = 0; i < users.length; i++){
+    if((user == users[i]) && (pass == passwords[i]))
+      return 1;
+	else if ((user == users1[i]) && (pass == passwords1[i]))
+      return 2;
+  }
+  return false;
+}
+function check()
+{
+  let user = document.form1.user.value;
+  let pass = document.form1.pass.value;
+  if(!sprawdz_haslo(user, pass)){
+      alert('Niepoprawne hasło!');
+  }
+  else if (sprawdz_haslo(user, pass) == 1){
+    document.location.href = "reported.html"; 
+  }
+  else {document.location.href = "profile.html"; }
+}
+// Koniec kodu JavaScript -->
+</SCRIPT>
+
+
+<title>Wyjdź za mnie</title>
+
+<link rel="stylesheet" href="css/search.css" type="text/css"/>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Marck+Script&amp;subset=latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&amp;subset=latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes&amp;subset=latin-ext" rel="stylesheet">
+
+</head>
+
+<body> 
+	
+		<div class="wrapper">
+			<div class="header">
+			
+				<div class="nav">
+					<ol>
+						<li> <a href="index.html">Wyjdź za mnie</a>  </li> 
+						<li> <a href="onas.html">O NAS</a> </li>
+						<li> <a href="profilesun.html">PRZEGLĄDAJ PROFILE</a> </li>
+						<li> <a href="index.html">ZAREJESTRUJ</a> </li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	
+		<div class="container">
+	
+				<div class="registry">
+			
+					<div class="regbox">
+						<img class="logo" src="img/rings.png" width="30%" height="30%" ></img>
+						<div class="prettyText">Poznaj i odmień swoje życie </div>
+						
+							<FORM NAME = "form1">
+							<input class="field" type="text" placeholder="podaj login" name="user"  onFocus="this.value='';">
+							<input class="field" type="password" placeholder="podaj hasło" name="pass"  onFocus="this.value='';">
+							<button class="button-registry" type="button" onClick="check();">  ZALOGUJ </button>
+							</form>
+					</div>
+			
+			
+				</div>
+	
+				<div class="content">
+				
+					<div class="photo"> 
+				
+						<img src="img/wedding-heart-png.png"> </img>
+					
+					</div>
+					
+				</div>
+			
+			<div style="clear: both"> </div>
+			
+		</div>
+
+		<div class="opinion"> 
+			<div class="review">
+			<br>
+				<div class="profile-user"> <img class="profile-user" src="img/user1.jpg"> </img> </div>
+				<h4> Miłość przychodzi znienacka! </h4>
+				<div style="clear: both"> </div>
+				<div class="history"> Sonię poznałem w tamtym roku. Od tego czasu moje życie naprawdę się zmieniło! Mamy dzieci, wspólny kredyt pod zastaw organów wewnętrznych oraz dom z przytulnym ogrodem w dzielnicy slamsów! </div>
+				<br>
+				
+			</div>
+			<div class="review">
+			<br>
+				<div class="profile-user"> <img class="profile-user" src="img/user2.jpg"> </img> </div>
+				<h4> Rozwijam relację! </h4>
+				<div style="clear: both"> </div>
+				<div class="history"> Dzięki temu portalowi poznałem najwspanialszą kobietę na świecie - Nataszę! Świetnie nam się rozmawia i czuję, że relacja wskoczyła na wyższy poziom. Poznałem nawet rodziców jej chłopaka! </div>
+				<br>
+				
+			</div>
+			<div class="review">
+				<br>
+				<div class="profile-user"> <img class="profile-user" src="img/user3.jpg"> </img> </div>
+				<h4> Świetne dopasowanie! </h4>
+				<div style="clear: both"> </div>
+				<div class="history"> Rekomendacja naprawdę działa! Poznałam już wielu wspaniałych facetów, a każdy kolejny jest lepszy od poprzedniego! Aż nie wiem, na którego się zdecydować! </div>
+				<br>
+				
+			</div>
+		
+		<div style="clear: both"> </div>
+		
+		</div>
+		
+
+			
+			<div class="footer">
+
+				2019 &copy; Wyjdź za mnie - najlepszy portal randkowy
+	
+			</div>
+
+</body>
+</html>

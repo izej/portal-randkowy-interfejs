@@ -1,0 +1,460 @@
+body
+{
+	/* ========================================================
+ This pattern is downloaded from www.subtlepatterns.com 
+ If you need more, that's where to get'em.
+ ======================================================= */
+ 
+	background-image: url("img/texturetastic_gray.png");
+	color: #808080;
+    margin: 0 !important;
+	font-size: 23px;
+	font-family: 'Open Sans Condensed', sans-serif;
+ 
+}
+
+.wrapper
+{
+	width: 100%;
+}
+
+.header
+{
+	width: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	
+}
+
+
+.nav
+{
+	
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 10px;
+	width:100%;
+	padding: 10px 0;
+	background-color: #990073;
+	text-align: center;
+	border-top: 1px solid #800060;
+	border-bottom: 1px solid #800060;
+	
+}
+
+.prettyText 
+{
+	font-family: 'Great Vibes', cursive;
+	border-bottom: 1px solid #800060;
+	font-size: 28px;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 20px;
+	height:35px;
+	line-height: 200%;
+	display: inline-block;
+	
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+    height:40px;
+	border-right: 1px dotted #800060;
+	
+}
+
+ol > li:hover
+{
+	background-color: #800060;
+	
+}
+
+ol>li:hover>a
+{
+	color: white;
+}
+
+ol > li:first-child
+{
+	width: 650px;
+    height:40px;
+	text-align:center;
+	font-size: 40px;
+	font-family: 'Great Vibes', cursive;
+	
+	
+}
+
+ol > li:first-child:hover
+{
+	background-color: #990073;
+
+}
+
+
+ul a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ul>li:hover>a
+{
+	color: #80ff80;
+}
+
+.container
+{   width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content
+{   
+	width: 65%;
+	height: 660px;
+	font-size: 20px;
+	float: left;
+
+
+	
+}
+
+.registry
+{
+	width: 35%;
+	height: 660px;
+	font-size: 20px;
+	float: left;
+
+}
+
+.regbox 
+{
+	position: relative;
+    width: 340px;
+    padding: 20px 30px;
+    margin: 0;
+    top: 10vh;
+    left: 5vw;
+	border-radius: 2px;
+    background-color: #f8f9f9;
+    box-shadow: 0 15px 12px 0 rgba(0,0,0,.22), 0 19px 38px 0 rgba(0,0,0,.3);
+    overflow: hidden;
+	box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+	text-align: center;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: open sans,sans-serif;
+    color: #333c4e;
+}
+
+.myGender 
+{
+	float: left;
+	width: 140px;
+	
+	
+}
+
+.colGender 
+{
+	float: left;
+	width: 140px;
+	
+}
+
+h2 
+{
+	font-size: 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	text-decoration: none;
+	display: block;
+	letter-spacing: 2px;
+}
+
+
+h3 
+{
+	font-size: 22px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-bottom: 0;
+    
+}
+
+h4 
+{
+	font-family: 'Great Vibes', cursive;
+	border-bottom: 1px solid #800060;
+	font-size: 28px;
+	float: left;
+	color: #800060;
+	margin-left: 10px;
+}
+
+h5 
+{
+	font-size: 20px;
+	height: 30px;
+}
+
+h6
+{
+	font-size: 15px;
+	color: #800060;
+
+}
+
+.checkGender 
+{
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	cursor: pointer;
+
+}
+
+.field 
+{
+	height: 40px;
+	width: 100%;
+    padding: 5px;
+	background-color: #fff;
+    border: 1px solid #6e7e8f;
+    border-radius: 2px;
+    box-shadow: none;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: initial;
+    display: inline-block;
+    text-align: start;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+.button-registry
+{
+	width: 225px;
+	height: 35px;
+	border-radius: 5px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	padding: 5px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size:20px;
+	background-color: #990073;
+	border: #800060;
+	color: white;
+}
+
+.button-registry a
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+.button-registry:hover 
+{
+	background-color: #800060;
+	cursor: pointer;
+}
+
+
+.photo {
+	margin-left: 100px;
+	margin-top: 40px;
+}
+
+.opinion {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ad8585;
+}
+.review {
+	width: 30%;
+	padding: 2px;
+
+	margin-left: 40px;
+	float: left;
+}
+.profile-user {
+	
+    flex: 0 0 auto;
+	display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-box-flex: 0;
+	float: left;
+}
+
+
+
+.history {
+	font-size: 20px;
+	color: white;
+}
+
+
+.footer
+{
+	font-size: 23; 
+	margin: 0;
+	text-align: center; 
+	background-color: #292929;
+	padding: 10px 0px;
+	margin-bottom: 0;
+	font-family: 'Great Vibes', cursive;
+}
+
+.about {
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.form1 
+{
+	padding: 20px;
+    width: 45%;
+    margin-left: 15px;
+	margin-right: 10px;
+	border-radius: 2px;
+    background-color: #f8f9f9;
+	text-align: start;
+    font-family: open sans,sans-serif;
+    color: #333c4e;
+	font-size: 15px;
+	float: left;
+	margin-top:30px;
+}
+
+.button-next {
+	
+width: 225px;
+	height: 35px;
+	border-radius: 5px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	margin-left: 1000px;
+	padding: 5px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size:20px;
+	background-color: #990073;
+	border: #800060;
+	color: white;
+
+	}
+	
+	.button-next a
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+.button-next:hover 
+{
+	background-color: #800060;
+	cursor: pointer;
+}
+
+.form2
+{
+	padding: 20px;
+    width: 45%;
+    margin-left: 15px;
+	margin-right: 10px;
+	border-radius: 2px;
+    background-color: #f8f9f9;
+	text-align: center;
+    font-family: open sans,sans-serif;
+    color: #333c4e;
+	font-size: 15px;
+	float: left;
+	margin-top:30px;
+}
+
+.check {
+	text-align: center;
+	
+}
+
+.win{
+	width:50%;
+}
+
+.field1{
+	height: 30px;
+	width: 290px;
+    padding: 5px;
+	background-color: #fff;
+    border: 1px solid #6e7e8f;
+    border-radius: 2px;
+    box-shadow: none;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: initial;
+    display: inline-block;
+    text-align: start;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+.myPic 
+{
+	width: 40%;
+	height: 300px;
+	font-size: 20px;
+ margin-left:70px;
+	float: left;
+}
+
+.myData
+{
+	width: 60%;
+	height: 300px;
+	font-size: 20px;
+	float: left;
+}
+
+.userPic
+{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	margin-left: 70px;
+	border: 1px solid #6e7e8f;
+	border-radius: 50%;
+	
+}
+
+.description
+{
+	width: 400px;
+
+	color: #6e7e8f;
+	text-align: justify;
+
+}
